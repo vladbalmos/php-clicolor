@@ -1,0 +1,18 @@
+{
+    "name": "vladbalmos/php-clicolor",
+    "description": "A static class which outputs colored text when used in text terminals",
+    "require": {
+        "ext-posix": "^0.0.0"
+    },
+    "authors": [
+        {
+            "name": "Vlad Balmos",
+            "email": "vlad.balmos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CliColor\\": "src/"
+        }
+    }
+}
