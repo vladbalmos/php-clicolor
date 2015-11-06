@@ -1,7 +1,10 @@
 {
     "name": "vladbalmos/php-clicolor",
+    "type": "library",
+    "keywords": ["cli", "terminal", "shell", "colors"],
     "description": "A static class which outputs colored text when used in text terminals",
     "require": {
+        "php": ">=5.4",
         "ext-posix": "^0.0.0"
     },
     "authors": [
